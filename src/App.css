@@ -21,6 +21,7 @@ body {
   padding: 2rem 1rem;
   position: fixed;
   height: 100vh;
+  overflow-y: auto;
 }
 
 .profile-photo {
@@ -95,4 +96,36 @@ section h3 {
 section p2 {
   line-height: 1.6;
   color: #f84a00;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-button {
+  background-color: #ddd;
+  color: #20232a;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  font-family: inherit;
+}
+
+.project-button h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.project-button p {
+  margin: 0;
+}
+
+.project-button:hover {
+  transform: translateY(-3px);
+  background-color: #21a1f1;
 }
