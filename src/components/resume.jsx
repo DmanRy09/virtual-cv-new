@@ -1,25 +1,9 @@
-import CV from '../assets/cv_Lumor_Devine.pdf'; // Check this path - usually assets/ not public/
+//import CV from '../assets/cv_Lumor_Devine.pdf'; // Check this path - usually assets/ not public/
 
 export default function Resume() {
   return (
     <section id="resume" className="resume-section">
       <h2>Resume & CV</h2>
-      
-      <div className="download-section">
-        <p>
-          Click{" "}
-          <a 
-            href={CV} 
-            download="Devine_Lumor_CV.pdf"
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="download-link"
-          >
-            here
-          </a>{" "}
-          to download my CV.
-        </p>
-      </div>
 
       <div className="skills-container">
         <div className="skills-category">
