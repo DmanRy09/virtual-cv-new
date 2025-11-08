@@ -37,40 +37,113 @@ body {
   font-size: 1.5rem;
 }
 
+.contact {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #20232a;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.contact h3 {
+  margin: 0 0 1rem 0;
+  color: white;
+}
+
+.contact a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
 .dashboard h2 {
   font-weight: 400;
   font-size: 1rem;
   color: #bbb;
 }
 
-.dashboard nav {
+.dashboard-nav {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.nav-button {
+  padding: 12px 20px;
+  background: #495057;
+  border: 2px solid #e9ecef;
+  border-radius: 6px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+}
+
+.nav-button:active {
+  transform: translateY(0);
+}
+
+
+.social-links {
+  display: flex;
   gap: 1rem;
-  margin-top: 2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
 
-.dashboard nav a {
-  color: #61dafb;
+.social-link {
+  padding: 10px 20px;
+  background: #333;
+  color: white;
   text-decoration: none;
-  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  flex: 1;
+  max-width: 120px;
 }
 
-.dashboard nav a:hover {
-  text-decoration: underline;
+.social-link:hover {
+  background: #3b82f6;
+  transform: translateY(-2px);
 }
 
-.socials {
-  margin-top: auto;
+.social-link:first-child {
+  background: #6e5494; /* GitHub purple */
 }
 
-.socials a {
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  margin: 5px 0;
+.social-link:last-child {
+  background: #0077b5; /* LinkedIn blue */
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard {
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-link {
+    max-width: 200px;
+    width: 100%;
+  }
+}
 /* Main page */
 main {
   margin-left: 320px;
@@ -127,5 +200,21 @@ section p2 {
 
 .project-button:hover {
   transform: translateY(-3px);
+  background-color: #20232a;
+}
+
+.dashboard-button {
+  background-color: #61dafb;
+  color: #d65804;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: inherit;
+  margin-top: 1rem;
+}
+
+.dashboard-button:hover {
   background-color: #21a1f1;
 }
+

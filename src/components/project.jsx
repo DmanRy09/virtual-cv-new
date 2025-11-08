@@ -7,8 +7,33 @@ export default function Projects() {
     },
     {
       title: "Text Messaging App",
-      description: "Municipal Request Application",
+      description: "Network programming group project",
       github: "https://github.com/Yoda-Mag/Group-9-Text-Messaging-App",
+    },
+    {
+      title: "Kafka/MongoDB Project",
+      description: "Kafka real-time data streaming",
+      github: "https://github.com/DmanRy09/Kafka-docker",
+    },
+    {
+      title: "Cisco Networking Project",
+      description: "Network configuration and simulation",
+      github: "https://github.com/lumordelali-ux/Network-topology",
+    },
+    {
+      title: "Municipal Request App",
+      description: "Municipal Request Application",
+      github: "https://github.com/DmanRy09/Project_CMPG223",
+    },
+    {
+      title: "Social Wellness Frontend App",
+      description: "Group project frontend repo frontend",
+      github: "https://github.com/PhetogoM/Frontend-SocialWellness",
+    },
+    {
+      title: "Social Wellness Backend App",
+      description: "Group project frontend repo backend",
+      github: "https://github.com/Doctor1ven/Backend---SocialWellness",
     },
   ];
 
