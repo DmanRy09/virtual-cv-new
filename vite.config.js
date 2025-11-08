@@ -7,5 +7,6 @@ export default defineConfig({
   base: '/virtual-cv-new/',
   build: {
     outDir: 'dist'
-  }
+  },
+  assetsInclude: ['**/*.pdf'],
 })
