@@ -1,4 +1,4 @@
-import CV from '../assets/cv_Lumor_Devine.pdf'; // Check this path - usually assets/ not public/
+//import CV from '../assets/cv_Lumor_Devine.pdf'; // Check this path - usually assets/ not public/
 
 export default function Resume() {
   return (
