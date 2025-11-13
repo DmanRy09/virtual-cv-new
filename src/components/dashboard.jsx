@@ -27,7 +27,7 @@ export default function Dashboard() {
       <div className="contact">
         <h3>Contact Details</h3>
         <p>Email: <a href="mailto:lumordelali09@gmail.com">lumordelali09@gmail.com</a></p>
-        <p>Phone: <a href="tel:+27766342633">+27 76 634 2633</a></p>
+        <p>Phone: <a href="tel:+27636941749">+27 63 594 1749</a></p>
       </div>
 
       <nav className="dashboard-nav">
